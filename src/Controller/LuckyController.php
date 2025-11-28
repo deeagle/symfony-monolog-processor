@@ -14,6 +14,7 @@ class LuckyController extends AbstractController
         private LoggerInterface $logger
     )
     {
+        $this->logger->info("Attention! Watch the log-files to see the additional information");
     }
 
     /**
